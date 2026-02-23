@@ -1,0 +1,15 @@
+{
+  "$schema": "https://fresh-editor.dev/schemas/package.schema.json",
+  "name": "copilot",
+  "version": "1.0.0",
+  "description": "GitHub Copilot for Fresh Editor",
+  "type": "plugin",
+  "author": "Hezkore",
+  "license": "MIT",
+  "repository": "https://github.com/github/copilot-language-server-release",
+  "keywords": ["copilot", "ai", "completions", "github"],
+  "fresh": {
+    "min_version": "0.1.0",
+    "entry": "copilot.ts"
+  }
+}
